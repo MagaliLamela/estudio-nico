@@ -1,0 +1,109 @@
+footer {
+    width: 100%;
+    background-color: #373435;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 18rem;
+    color: #fafafa;
+    font-weight: bold;
+    padding: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 1); /* Sombra para el efecto de profundidad */
+
+}
+
+footer div {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.descripcionFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: justify; 
+}
+
+.descripcionFooter img {
+    width: 12rem;
+    margin-bottom: 0.7rem;
+    border: #d2ae6d 3px solid ;
+    border-radius: 5px;
+}
+
+.descripcionFooter p {
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-wrap: balance;
+}
+
+footer div h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+footer div h2 span {
+    text-decoration: underline;
+    text-decoration-color: #d2ae6d;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+}
+
+.serviciosFooter {
+    margin-top: 1rem;
+}
+
+.contactoFooter {
+    margin-top: 1rem;
+}
+
+.serviciosFooter p {
+    line-height: 2.2rem;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.contactoFooter p {
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.iconosFooter {
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+
+}
+
+.logoInstagram {   
+    transition: all 0.3s;
+    color: #fafafa;
+}
+
+.logoLinkedin {    
+    transition: all 0.3s;
+    color: #fafafa;
+}
+
+.logoWpp {
+    transition: all 0.3s;
+    color: #fafafa;
+}
+
+.logoInstagram:hover {
+    color: #E1306c;
+}
+
+.logoLinkedin:hover {
+    color: #0e76a8
+}
+
+.logoWpp:hover {
+    color: #25d366;
+}

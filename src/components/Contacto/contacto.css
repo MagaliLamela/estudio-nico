@@ -1,0 +1,83 @@
+.contacto {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.contacto form {
+  background-color: gray;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto form h1 {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fafafa;
+}
+
+.contacto form h1 span {
+  text-decoration: underline;
+  text-decoration-color: #d2ae6d;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 10px;
+}
+
+.contacto form input[type=text], .contacto form input[type=email], .contacto form input[type=tel] 
+{
+    display: block;
+    width: 80%;
+    height: 3.1rem;
+    padding: 10px;
+    border: 2px solid #d2ae6d;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+
+  .contacto form textarea {
+    display: block;
+    width: 80%;
+    height: 12rem;
+    padding: 10px;
+    border: 2px solid #d2ae6d;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  
+  .contacto form input:focus,
+  .contacto form textarea:focus {
+    outline: #d2ae6d solid 3px;
+  }
+  
+  
+  .botonFormulario {
+    background-color: #d2ae6d;
+    color: #fafafa;
+    transition: all 0.3s;
+    padding: 10px 10px;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    width: 8rem;
+    align-self: center;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    border: none;
+  }
+  
+  .botonFormulario:active {
+    font-size: 1.3rem;
+  }
+  
+  .mapaLocales {
+    width: 100%;
+    height: 650px;
+    margin-right: 1.5rem;
+  }
+    
