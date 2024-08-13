@@ -1,4 +1,4 @@
-const datosCards = [
+const datosCardsInicio = [
     {
         id: 1,
         titulo: "Experiencia",
@@ -24,10 +24,10 @@ const datosCards = [
 ]
 
 
-const obtenerDatosCards = () => {
+const obtenerDatosCardsInicio = () => {
     return new Promise((resolve, reject) => {
-        resolve(datosCards)
+        resolve(datosCardsInicio)
     });
 }
 
-export default obtenerDatosCards
+export default obtenerDatosCardsInicio

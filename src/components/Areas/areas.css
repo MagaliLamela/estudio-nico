@@ -1,0 +1,19 @@
+.areasContainer {
+    background-color: gray;
+    margin: 0;
+}
+
+.h1Areas {
+    text-align: center;
+    padding: 40px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fafafa;
+}
+
+.h1Areas span {
+    text-decoration: underline;
+    text-decoration-color: #d2ae6d;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 15px;
+}

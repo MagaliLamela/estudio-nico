@@ -1,11 +1,10 @@
-import Item from "./Item"
-import "./inicio.css"
+import "./itemlist.css"
 
-const ItemList = ({ datosCards }) => {
+const ItemList = ({ datosCards, ItemComponent }) => {
     return (
-        <div className="container-fluid row cardsDatosInicio">
+        <div className="row">
             {datosCards.map((datoCard) => (
-                <Item key={datoCard.id} datoCard={datoCard} />
+                <ItemComponent key={datoCard.id} datoCard={datoCard} />
             ))}
         </div>
     )

@@ -1,0 +1,139 @@
+.cardsContainerInicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .cardsContainerAreas {
+    display: flex;
+    justify-content: center;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cardAreaWrapper {
+    display: flex;
+    justify-content: center; /* Centra el contenido */
+}
+
+.cardIndividual {
+    border: #d2ae6d 3px solid;
+    border-radius: 5px;
+    margin: 20px;
+    margin-bottom: 60px;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fafafa;
+    transition: all 0.3s;
+}
+
+.cardIndividual:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.cardInicio {
+    height: 20rem;
+    width: 18rem;
+}
+
+.cardIndividual h2 {
+    text-wrap: balance;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0.8rem;
+}
+
+.imagenCards {
+    max-height: 5rem;
+    max-width: 5rem;
+}
+
+.cardIndividual p {
+    font-size: 1.1rem;
+    margin-bottom: 13px;
+    margin-top: 13px;
+    text-align: justify;
+}
+
+.cardEspecial {
+    background-color: #d2ae6d;
+    color: #fafafa;
+}
+
+.cardEspecial .btn {
+    display: inline-block;
+    font-size: 1.3rem;
+    margin-top: auto;
+    background-color: gray;
+    color: #fafafa;
+    padding: 10px;
+    border: gray solid 1px;
+    border-radius: 15px;
+}
+
+.cardAreas {
+    width: 25rem;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.cardAreas h2 {
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 2.3rem;
+    color: #d2ae6d;
+}
+
+.cardAreas .imagenCards {
+    align-self: center;
+}
+
+.btnAreasContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnAreasContainer button {
+    font-size: 1rem;
+    margin-top: auto;
+    padding: 10px;
+    border-radius: 15px;
+    width: 130px;
+}
+
+
+.btnAreasVerMas {
+    background-color: gray;
+    border: gray solid 1px;
+    color: #fafafa;
+}
+
+
+.btnAreasContacto {
+    background-color: #d2ae6d;
+    color: #fafafa;
+    padding: 10px;
+    border: #d2ae6d solid 1px;
+}
+
+.cardNosotros {
+    width: 20rem;
+    height: 32rem;
+}
+
+.cardNosotros h2 {
+    text-align: center;
+}
+
+.cardIndividual .imagenCardsNosotros {
+    width: 15rem;
+    height: 20rem;
+    align-self: center;
+}
