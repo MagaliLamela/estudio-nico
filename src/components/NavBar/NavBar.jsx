@@ -23,12 +23,13 @@ const NavBar = () => {
     }, []);
 
     const isHomePage = location.pathname === "/";
+    const isNosotrosPage = location.pathname === "/nosotros"
 
     return (
         <header className="sticky-top">
             <nav className={`navbar navbar-expand-lg navbar-dark container-fluid barraNavegacion  ${
-                    isHomePage ? (isScrolled ? 'solid' : 'transparent') : 'solid'
-                } ${isHomePage ? 'fixed-nav' : 'static-nav'}`}>
+                    isHomePage || isNosotrosPage ? (isScrolled ? 'solid' : 'transparent') : 'solid'
+                } ${isHomePage || isNosotrosPage ? 'fixed-nav' : 'static-nav'}`}>
                 <Link to={"/"} className="navbar-brand">
                     <img className="logo" src={logo} alt="Logo del Estudio" />
                 </Link>
