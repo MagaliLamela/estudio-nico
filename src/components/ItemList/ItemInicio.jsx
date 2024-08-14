@@ -1,4 +1,5 @@
 import "./itemlist.css"
+import { Link } from "react-router-dom"
 
 const ItemInicio = ({ datoCard }) => {
 
@@ -14,7 +15,9 @@ const ItemInicio = ({ datoCard }) => {
                     <h2 className="card-title cardTitulo"> {datoCard.titulo} </h2>
                     <p> {datoCard.descripcion} </p>
                     {ultimaCard && (
-                        <button className="btn btn-primary">Contáctanos</button>
+                        <Link to={"../contacto"} className="btnCardInicioContainer">
+                            <button className="btnCardInicio">Contáctanos</button>
+                        </Link>
                     )}
                 </div>
             </div>

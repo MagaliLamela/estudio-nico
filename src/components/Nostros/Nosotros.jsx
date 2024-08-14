@@ -12,12 +12,12 @@ const Nosotros = () => {
         <img className="imgNosotros" src={oficina} alt="Oficinas" />
        
         <div className='textoNosotros'>
-          <h1>Nuestro<br /> <span>Est</span>udio</h1>
-          <p>Una descripción o subtítulo hola como estas escribi algo nico que sino ya no se con que rellenar. Descripcion del estudio y sus virtudes</p>
+          <h1>Nuestro<br /> <span>Est</span>udio:</h1>
+          <p>Se enorgullece de ofrecer un asesoramiento legal integral y personalizado, respaldado por una trayectoria de excelencia y un profundo compromiso con la justicia. Nuestro equipo de abogados altamente capacitados se dedica a brindar soluciones jurídicas innovadoras y eficaces, siempre con el objetivo de proteger y promover los intereses de nuestros clientes con la mayor integridad y profesionalismo.</p>
         </div>
       </div>
       <div className="nosotrosContainer">
-        <h1 className="h1Nosotros">El <span>Equ</span>ipo</h1>
+        <h1 className="h1Nosotros">Nues<span>tros Abo</span>gados</h1>
         <ItemListContainer fetchData={obtenerDatosCardsNosotros} ItemComponent={ItemNosotros} containerClass="cardsContainerNosotros" />
       </div>
     </div>

@@ -68,7 +68,11 @@
     align-self: center;
     margin-bottom: 50px;
     border-radius: 15px;
-    border: none;
+    border: #d2ae6d 1px solid;
+  }
+
+  .botonFormulario:hover {
+    background-color: #e6bd73;
   }
   
   .botonFormulario:active {

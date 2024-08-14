@@ -37,7 +37,7 @@
 }
 
 .cardInicio {
-    height: 20rem;
+    height: 22.5rem;
     width: 18rem;
 }
 
@@ -49,8 +49,8 @@
 }
 
 .imagenCards {
-    max-height: 5rem;
-    max-width: 5rem;
+    max-height: 5.5rem;
+    max-width: 5.5rem;
 }
 
 .cardIndividual p {
@@ -63,25 +63,47 @@
 .cardEspecial {
     background-color: #d2ae6d;
     color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-.cardEspecial .btn {
+.cardEspecial p {
+    font-size: 1.5rem;
+}
+
+.btnCardInicioContainer {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.btnCardInicio {
     display: inline-block;
     font-size: 1.3rem;
-    margin-top: auto;
     background-color: gray;
     color: #fafafa;
     padding: 10px;
     border: gray solid 1px;
     border-radius: 15px;
+    width: 180px;
+}
+
+.btnCardInicio:hover {
+    background-color: #a0a0a0;
 }
 
 .cardAreas {
     width: 25rem;
-    height: 25rem;
+    height: 27rem;
     display: flex;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
+}
+
+.cardContentInicio {
+    flex: 1;
 }
 
 .cardAreas h2 {
@@ -115,12 +137,24 @@
     color: #fafafa;
 }
 
+.btnAreasVerMas:hover {
+    background-color: #a0a0a0;
+}
 
 .btnAreasContacto {
     background-color: #d2ae6d;
     color: #fafafa;
     padding: 10px;
     border: #d2ae6d solid 1px;
+}
+
+.btnAreasContacto:hover {
+    background-color: #e6bd73;
+}
+
+
+.cardTituloAreas {
+    min-height: 4.5rem;
 }
 
 .cardNosotros {

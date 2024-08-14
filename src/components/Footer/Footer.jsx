@@ -9,7 +9,6 @@ const Footer = () => {
     <footer>
       <div className="descripcionFooter">
         <img className="logoFooter" src={logo} alt="Logo del Estudio" />
-        <p>descripcion del estudio... Lorem ipsum doimus animi. Cum consectetur tenetur voluptatem quod eum sint officiis ipsam placeat?</p>
       </div>
 
       <div className="serviciosFooter">
@@ -26,8 +25,8 @@ const Footer = () => {
       <div className="contactoFooter">
         <h2><span>Con</span>tacto</h2>
         <p>Teléfonos: 4512-5641</p>
-        <p>Mail: dafklaskf@gmfdla.com</p>
-        <p>Dirección: Libertador 1068</p>
+        <p>Mail: nicolasebastianrocha@gmail.com</p>
+        <p>Dirección: Rodríguez Peña 336, Piso 5, Oficina 51</p>
         <div className="iconosFooter">
           <Link target="_blank" to="https://www.instagram.com" >
             <FaInstagram className="logoInstagram" />

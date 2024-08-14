@@ -2,24 +2,24 @@ const datosCardsInicio = [
     {
         id: 1,
         titulo: "Experiencia",
-        imagen: "/icono-experiencia.jpg",
-        descripcion: "ExperienciaLorem ipsum doimus etur voluptatem quod eum sint officiis ipsam placeat?"
+        imagen: "/icono-experiencia.png",
+        descripcion: "Nuestros profesionales destacan por su amplia experiencia, conocimiento profundo y capacidad para resolver conflictos."
     },
     {
         id: 2,
         imagen: "/icono-respuesta.png",
         titulo: "Respuesta",
-        descripcion: "RespuestaLorem dsipsum doir tenetur voluptatem quod eum sint officiis ipsam placeat?"
+        descripcion: "Obtendrá soluciones personalizadas a la mayor brevedad posible."
     },
     {
         id: 3,
         titulo: "Acuerdos",
         imagen: "/icono-acuerdo.png",
-        descripcion: "AcuerdosLorsdem ipsum doimusnetur voluptatem quod eum sint officiis ipsam placeat?"
+        descripcion: "Contamos con grandes habilidades de negociación, capaces de lograr los acuerdos más beneficiosos para nuestros clientes."
     },
     {
         id: 4,
-        descripcion: "Lorem ipsum doimus animi. Cum consectetur tenetur voluptatem quod eum sint officiis ipsam placeat?"
+        descripcion: "Buscamos brindar soluciones efectivas, rápidas y personalizadas."
     }
 ]
 

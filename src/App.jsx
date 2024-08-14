@@ -6,6 +6,7 @@ import Contacto from './components/Contacto/Contacto'
 import Areas from "./components/Areas/Areas"
 import Nosotros from "./components/Nostros/Nosotros"
 import ScrollToTop from './components/Scroll/ScrollToTop';
+import DetalleAreas from './components/Areas/DetalleAreas'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path='/areas-de-practica' element={<Areas />} />
         <Route path='/contacto' element={<Contacto />} />
         <Route path='/nosotros' element={<Nosotros />} />
+        <Route path="/detalles/:idArea" element={<DetalleAreas />} />
       </Routes>
       <Footer />
 
