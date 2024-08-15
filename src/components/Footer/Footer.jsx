@@ -25,7 +25,7 @@ const Footer = () => {
       <div className="contactoFooter">
         <h2><span>Con</span>tacto</h2>
         <p>Teléfonos: 4512-5641</p>
-        <p>Mail: nicolasebastianrocha@gmail.com</p>
+        <p>Mail: bgrabogados@gmail.com</p>
         <p>Dirección: Rodríguez Peña 336, Piso 5, Oficina 51</p>
         <div className="iconosFooter">
           <Link target="_blank" to="https://www.instagram.com" >
