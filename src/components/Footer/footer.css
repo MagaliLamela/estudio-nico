@@ -1,16 +1,14 @@
 footer {
     width: 100%;
     background-color: #373435;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 18rem;
+    display: flex;
+    justify-content: space-between;
     color: #fafafa;
     font-weight: bold;
     padding: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 1); /* Sombra para el efecto de profundidad */
-
 }
 
 footer div {
@@ -31,14 +29,6 @@ footer div {
     margin-bottom: 0.7rem;
     border: #d2ae6d 3px solid ;
     border-radius: 5px;
-}
-
-.descripcionFooter p {
-    font-size: 0.8rem;
-    font-weight: bold;
-    line-height: 1.6;
-    margin-bottom: 0;
-    text-wrap: balance;
 }
 
 footer div h2 {
@@ -66,6 +56,10 @@ footer div h2 span {
     line-height: 2.2rem;
     font-size: 1rem;
     font-weight: normal;
+}
+
+.contactoFooter {
+    width: 20rem;
 }
 
 .contactoFooter p {

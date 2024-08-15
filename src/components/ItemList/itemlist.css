@@ -46,18 +46,20 @@
     font-size: 2rem;
     font-weight: bold;
     margin-top: 0.8rem;
+    text-align: center;
 }
 
 .imagenCards {
     max-height: 5.5rem;
     max-width: 5.5rem;
+    align-self: center;
 }
 
 .cardIndividual p {
     font-size: 1.1rem;
     margin-bottom: 13px;
     margin-top: 13px;
-    text-align: justify;
+    text-align: center;
 }
 
 .cardEspecial {
@@ -87,6 +89,7 @@
     border: gray solid 1px;
     border-radius: 15px;
     width: 180px;
+    transition: all 0.3s;
 }
 
 .btnCardInicio:hover {
@@ -110,7 +113,11 @@
     text-align: center;
     word-wrap: break-word;
     font-size: 2.3rem;
-    color: #d2ae6d;
+    color: black;
+}
+
+.cardAreas p {
+    text-align: justify;
 }
 
 .cardAreas .imagenCards {
@@ -135,6 +142,7 @@
     background-color: gray;
     border: gray solid 1px;
     color: #fafafa;
+    transition: all 0.3s;
 }
 
 .btnAreasVerMas:hover {
@@ -146,6 +154,7 @@
     color: #fafafa;
     padding: 10px;
     border: #d2ae6d solid 1px;
+    transition: all 0.3s;
 }
 
 .btnAreasContacto:hover {
@@ -164,6 +173,10 @@
 .cardNosotros h2 {
     text-align: center;
     color: #d2ae6d;
+}
+
+.cardNosotros p {
+    text-align: justify;
 }
 
 .cardIndividual .imagenCardsNosotros {
