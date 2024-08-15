@@ -12,7 +12,7 @@ const Nosotros = () => {
         <img className="imgNosotros" src={oficina} alt="Oficinas" />
        
         <div className='textoNosotros'>
-          <h1>Nuestro<br /> <span>Est</span>udio:</h1>
+          <h1><span>Nues</span>tro Estudio</h1>
           <p>Se enorgullece de ofrecer un asesoramiento legal integral y personalizado, respaldado por una trayectoria de excelencia y un profundo compromiso con la justicia. Nuestro equipo de abogados altamente capacitados se dedica a brindar soluciones jurídicas innovadoras y eficaces, siempre con el objetivo de proteger y promover los intereses de nuestros clientes con la mayor integridad y profesionalismo.</p>
         </div>
       </div>
