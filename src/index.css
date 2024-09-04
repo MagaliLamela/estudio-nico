@@ -13,3 +13,21 @@ body {
   background-color: #fafafa;
   overflow-x: hidden;
 }
+
+@media (max-width: 768px) {
+  html {
+      font-size: 78% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+      font-size: 85% !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+      font-size: 100% !important;
+  }
+}

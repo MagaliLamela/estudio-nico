@@ -17,3 +17,93 @@
     text-decoration-thickness: 3px;
     text-underline-offset: 15px;
 }
+
+.contenedorDetalle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+    background-color: gray;
+    color: #fafafa;
+}
+
+.contenedorDetalleTexto {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.contenedorDetalleTexto ul {
+    list-style: none;
+}
+
+.iconoLista {
+    height: 15px;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+
+.contenedorImagenDetalle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.imagenDetalle {
+    height: 550px;
+    width: 600px;
+    border: #d2ae6d 5px solid;
+    border-radius: 5px;
+}
+
+.imagenDetalleDerechoLaboral {
+    height: 95%;
+}
+
+.contenedorDetalleTexto h2 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contenedorDetalleTexto ul li {
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedorDetalleTexto ul li span {
+    font-weight: bold;
+}
+
+.contenedorDetalleTexto p {
+    text-align: justify;
+}
+
+.contenedorBtnDetalle {
+    align-self: center;
+}
+
+.btnContactoDetalle {
+    background-color: #d2ae6d;
+    color: #fafafa;
+    padding: 10px;
+    border: #d2ae6d solid 1px;
+    transition: all 0.3s;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    width: 200px;
+}
+
+.btnContactoDetalle:hover {
+    background-color: #e6bd73;
+}
+
+.tituloSubrayado {
+    text-decoration: underline;
+    text-decoration-color: #d2ae6d;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+}

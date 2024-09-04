@@ -166,8 +166,8 @@
 }
 
 .cardNosotros {
-    width: 20rem;
-    height: 32rem;
+    width: 22rem;
+    height: 35rem;
 }
 
 .cardNosotros h2 {
@@ -183,4 +183,7 @@
     width: 15rem;
     height: 20rem;
     align-self: center;
+    border: #e6bd73 3px solid;
+    border-radius: 5px;
+
 }
