@@ -7,12 +7,12 @@ import { FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer>
-      <div className="descripcionFooter">
+      <div className="contenedorLogoFooter">
         <img className="logoFooter" src={logo} alt="Logo del Estudio" />
       </div>
 
       <div className="serviciosFooter">
-        <h2><span>Ser</span>vicios</h2>
+        <h2><span className="spanFooter1">Se<span className="spanFooter2">r</span></span><span className="spanFooter2">vici</span>os</h2>
         <p>
           Derecho Laboral <br />
           Asesoramiento Empresarial <br />
@@ -23,7 +23,7 @@ const Footer = () => {
       </div>
 
       <div className="contactoFooter">
-        <h2><span>Con</span>tacto</h2>
+        <h2><span className="spanFooter1">Co<span className="spanFooter2">n</span></span><span className="spanFooter2">tac</span>to</h2>
         <p>Teléfonos: 4512-5641</p>
         <p>Mail: bgrabogados@gmail.com</p>
         <p>Dirección: Rodríguez Peña 336, Piso 5, Oficina 51</p>

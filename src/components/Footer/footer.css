@@ -11,20 +11,13 @@ footer {
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 1); /* Sombra para el efecto de profundidad */
 }
 
-footer div {
-    display: inline-block;
-    margin: 1rem;
-}
-
-.descripcionFooter {
+.contenedorLogoFooter {
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    text-align: justify; 
     justify-content: center;
 }
 
-.descripcionFooter img {
+.contenedorLogoFooter img {
     width: 15rem;
     margin-bottom: 0.7rem;
     border: #d2ae6d 3px solid ;
@@ -37,7 +30,7 @@ footer div h2 {
     margin-bottom: 1rem;
 }
 
-footer div h2 span {
+.spanFooter1 {
     text-decoration: underline;
     text-decoration-color: #d2ae6d;
     text-decoration-thickness: 2px;
@@ -56,11 +49,9 @@ footer div h2 span {
     line-height: 2.2rem;
     font-size: 1rem;
     font-weight: normal;
+    text-wrap: nowrap;
 }
 
-.contactoFooter {
-    width: 20rem;
-}
 
 .contactoFooter p {
     line-height: 1.5rem;
@@ -101,4 +92,58 @@ footer div h2 span {
 
 .logoWpp:hover {
     color: #25d366;
+}
+
+
+@media (max-width: 900px) {
+    .contenedorLogoFooter {
+        grid-area: logo;
+        margin-bottom: 1.5rem;
+    }
+
+    .serviciosFooter {
+        grid-area: servicios;
+    }
+
+    .contactoFooter {
+        grid-area: contacto;
+    }
+
+    footer {
+        display: grid;
+        grid-template-areas: ".. .. logo .. .." ".. servicios .. contacto ..";
+    }
+}
+
+@media (max-width: 604px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+}
+
+.contenedorLogoFooter {
+    margin-top: 1.5rem;
+}
+
+.serviciosFooter {
+    margin-top: 1.5rem;
+}
+
+.contactoFooter {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.spanFooter1 {
+    text-decoration: none;
+}
+
+.spanFooter2 {
+    text-decoration: underline;
+    text-decoration-color: #d2ae6d;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+}
 }

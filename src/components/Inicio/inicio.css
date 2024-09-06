@@ -6,7 +6,7 @@
     position: relative;
     display: inline-block;
     width: 100vw;
-    height: 600px;
+    height: 37rem;
     overflow: hidden;
 }
 
@@ -39,7 +39,8 @@
     position: absolute;
     top: 50%;
     left: 22%;
-    transform: translate(-50%, -50%); /* Centra el texto */
+    transform: translate(-50%, -50%);
+    /* Centra el texto */
     color: #fafafa;
     text-align: justify;
     padding: 20px;
@@ -48,7 +49,7 @@
 }
 
 .textoBanner h1 {
-    font-size: 2.6rem; 
+    font-size: 2.6rem;
     margin: 0;
     font-weight: bold;
     letter-spacing: 3px;
@@ -63,26 +64,8 @@
     text-decoration: underline;
     text-decoration-color: #d2ae6d;
     text-decoration-thickness: 2px;
-    text-underline-offset: 15px;    
+    text-underline-offset: 15px;
 }
-
-@media (max-width: 990px) {
-    .imgBanner {
-    height: 500px;
-}
-.textoBanner {
-    width: 25rem;
-    left: 25%;
-    top: 40%;
-}
-.textoBanner h1 {
-    font-size: 2.1rem;
-}
-.textoBanner p {
-    font-size: 1rem;
-}
-}
-
 
 .h2Inicio {
     font-size: 3rem;
@@ -99,4 +82,87 @@
     text-decoration-color: #d2ae6d;
     text-decoration-thickness: 2px;
     text-underline-offset: 15px;
+}
+
+
+@media (max-width: 990px) {
+    .imgBannerContainer {
+        height: 31rem;
+    }
+
+    .textoBanner {
+        width: 25rem;
+        top: 55%;
+    }
+
+    .textoBanner h1 {
+        font-size: 2.1rem;
+    }
+
+    .textoBanner p {
+        font-size: 1rem;
+    }
+
+    .h2Inicio {
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 685px) {
+
+    .textoBanner {
+        width: 25rem;
+        left: 27%;
+    }
+
+    .textoBanner h1 {
+        font-size: 2rem;
+    }
+
+    .textoBanner p {
+        font-size: 1rem;
+    }
+
+    .h2Inicio {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .textoBanner {
+        left: 32%;
+    }
+    .h2Inicio {
+        font-size: 2.3rem;
+        text-wrap: nowrap;
+    }    
+}
+
+@media (max-width: 450px) {
+    .textoBanner {
+        left: 36%;
+    }
+
+    .h2Inicio {
+        text-wrap: wrap;
+    }
+    
+.h2Inicio span {
+    text-underline-offset: 8px;
+}
+}
+
+@media (max-width: 400px) {
+    .textoBanner {
+        width: 22rem;
+        left: 40%;
+    }
+
+    .textoBanner h1 {
+        font-size: 1.6rem;
+    }
+
+    .textoBanner p {
+        font-size: 0.9rem;
+    }
 }

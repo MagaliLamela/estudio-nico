@@ -40,12 +40,31 @@
 }
 
 .navbar-toggler {
-  color: #fafafa;
+  border: none;
+  margin-right: 2rem;
 }
 
 .navbar-toggler-icon {
   width: 40px;
   height: 40px;
+  background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"%3E%3Cpath stroke="%23d2ae6d" stroke-width="2" stroke-linecap="round" d="M4 6h16M4 12h16M4 18h16"/%3E%3C/svg%3E');
+  background-color: transparent; /* Asegúrate de que el fondo sea transparente */
+}
+
+.navbar-toggler:focus {
+  box-shadow: none; /* Elimina el borde de enfoque */
+  outline: none; /* Elimina el borde de enfoque del navegador */
+}
+
+.barraNavegacion.transparent {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.barraNavegacion.solid {
+  background-color: #373435;
+  /* Color sólido cuando se hace scroll */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+  /* Sombra para el efecto de profundidad */
 }
 
 @media (min-width: 992px) {
@@ -65,15 +84,17 @@
   .menuNavegacion ul li a:hover {
     color: #d2ae6d;
   }
-  }
-
-.barraNavegacion.transparent {
-  background-color: rgba(0, 0, 0, 0);
 }
 
-.barraNavegacion.solid {
+@media (max-width: 992px) {
+.navbar-collapse {
   background-color: #373435;
-  /* Color sólido cuando se hace scroll */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
-  /* Sombra para el efecto de profundidad */
+  /* Color sólido para el fondo del menú colapsado */
+}
+
+/* Asegúrate de que el fondo sólido del menú colapsado se vea siempre */
+.navbar-collapse.collapse.show {
+  background-color: #373435;
+  /* Color sólido para cuando el menú está visible */
+}
 }
