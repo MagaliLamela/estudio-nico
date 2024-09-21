@@ -94,6 +94,15 @@ footer div h2 {
     color: #25d366;
 }
 
+.logoFacebook {
+    transition: all 0.3s;
+    color: #fafafa;
+}
+
+.logoFacebook:hover {
+    color: #3b5998
+}
+
 
 @media (max-width: 900px) {
     .contenedorLogoFooter {

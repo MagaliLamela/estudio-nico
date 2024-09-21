@@ -35,7 +35,7 @@ const DetalleAreas = () => {
 
     return (
         <div className='contenedorDetalle'>
-            <div className='contenedorImagenDetalle'>
+            <div className='contenedorImagenDetalle1'>
                 <img className={`imagenDetalle ${area.tituloParte1 === 'Derecho' && area.tituloParte2 === 'Laboral' ? 'imagenDetalleDerechoLaboral' : ''}`} src={area.imagenDetalle} alt="" />
             </div>
             <div className='contenedorDetalleTexto'>
@@ -44,6 +44,9 @@ const DetalleAreas = () => {
                     <span className="tituloSubrayado">{media}</span>
                     {despues}
                 </h2>
+                <div className='contenedorImagenDetalle2'>
+                <img className={`imagenDetalle ${area.tituloParte1 === 'Derecho' && area.tituloParte2 === 'Laboral' ? 'imagenDetalleDerechoLaboral' : ''}`} src={area.imagenDetalle} alt="" />
+            </div>
                 <p> {area.descripcion} </p>
                 {area.detalles && (
                     <ul>

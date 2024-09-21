@@ -15,9 +15,9 @@ const ItemInicio = ({ datoCard }) => {
                     <h2 className="card-title cardTitulo"> {datoCard.titulo} </h2>
                     <p> {datoCard.descripcion} </p>
                     {ultimaCard && (
-                        <Link to={"../contacto"} className="btnCardInicioContainer">
-                            <button className="btnCardInicio">Contáctanos</button>
-                        </Link>
+                          <Link className='btnCardInicioContainer' target="_blank" to="https://api.whatsapp.com/send?phone=1156137641&text=¡Hola!%20¿Cómo%20podemos%20ayudarte?">
+                          <button className="btnCardInicio">Contáctanos</button>
+                      </Link>
                     )}
                 </div>
             </div>

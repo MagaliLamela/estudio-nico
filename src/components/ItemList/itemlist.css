@@ -22,10 +22,10 @@
 .cardIndividual {
     border: #d2ae6d 3px solid;
     border-radius: 5px;
-    margin: 20px;
-    margin-bottom: 60px;
+    margin: 1rem;
+    margin-bottom: 3rem;
     display: flex;
-    margin-top: 20px;
+    margin-top: 1rem;
     flex-direction: column;
     padding: 20px;
     background-color: #fafafa;
@@ -37,7 +37,7 @@
 }
 
 .cardInicio {
-    height: 22.5rem;
+    height: 23rem;
     width: 18rem;
 }
 
@@ -98,7 +98,7 @@
 
 .cardAreas {
     width: 25rem;
-    height: 27rem;
+    height: 28rem;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -134,7 +134,7 @@
     margin-top: auto;
     padding: 10px;
     border-radius: 15px;
-    width: 130px;
+    width: 8rem;
 }
 
 
@@ -186,4 +186,24 @@
     border: #e6bd73 3px solid;
     border-radius: 5px;
 
+}
+
+@media (max-width: 1150px) {
+    .cardAreas {
+        width: 25rem;
+        height: 30rem;
+        }    
+}
+
+@media (max-width: 990px) {
+    .cardAreas {
+        width: 25rem;
+        height: 27rem;
+        }    
+}
+
+@media (max-width: 350px) {
+    .cardAreas {
+        width: 22rem;
+        }    
 }

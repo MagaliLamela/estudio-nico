@@ -17,7 +17,7 @@ const Nosotros = () => {
         </div>
       </div>
       <div className="nosotrosContainer">
-        <h1 className="h1Nosotros">Nues<span>tros Abo</span>gados</h1>
+        <h1 className="h1Nosotros">Nues<span className="spanNosotros1">tros Ab<span className="spanNosotros2">o</span></span><span className="spanNosotros2">gad</span>os</h1>
         <ItemListContainer fetchData={obtenerDatosCardsNosotros} ItemComponent={ItemNosotros} containerClass="cardsContainerNosotros" />
       </div>
     </div>

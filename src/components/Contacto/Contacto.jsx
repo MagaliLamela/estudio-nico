@@ -9,7 +9,7 @@ const Contacto = () => {
     return (
         <div className='contacto'>
             <form>
-                <h1><span>Cont</span>áctanos</h1>
+                <h1><span className='spanContacto1'>Con<span className='spanContacto2'>t</span></span><span className='spanContacto2'>ácta</span>nos</h1>
 
                 <input type="text" id="nombre" name='nombre' placeholder="Nombre" required />
 

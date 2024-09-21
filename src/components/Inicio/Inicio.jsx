@@ -15,7 +15,7 @@ const Inicio = () => {
           <p>Somos un estudio jurídico comprometido con la excelencia, que ofrece un servicio con enfoque personalizado, combinando conocimiento, estrategia y un profundo compromiso con nuestros clientes.</p>
         </div>
       </div>
-      <h2 className='h2Inicio'>Razon<span>es para el</span>egirnos</h2>
+      <h2 className='h2Inicio'>Razon<span className='spanInicio1'>es para el</span><span className='spanInicio2'>egirn</span>os</h2>
       <ItemListContainer fetchData={obtenerDatosCardsInicio} ItemComponent={ItemInicio} containerClass="cardsContainerInicio" />
     </div>
   )

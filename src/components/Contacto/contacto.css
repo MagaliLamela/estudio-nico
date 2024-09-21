@@ -19,101 +19,113 @@
   color: #fafafa;
 }
 
-.contacto form h1 span {
+.spanContacto1 {
   text-decoration: underline;
   text-decoration-color: #d2ae6d;
   text-decoration-thickness: 3px;
   text-underline-offset: 10px;
 }
 
-.contacto form input[type=text], .contacto form input[type=email], .contacto form input[type=tel] 
-{
-    display: block;
-    width: 80%;
-    height: 3.1rem;
-    padding: 10px;
-    border: 2px solid #d2ae6d;
-    border-radius: 5px;
-    font-size: 1.1rem;
-    margin-top: 2rem;
-    margin-left: 2rem;
+.contacto form input[type=text],
+.contacto form input[type=email],
+.contacto form input[type=tel] {
+  display: block;
+  width: 80%;
+  height: 3.1rem;
+  padding: 10px;
+  border: 2px solid #d2ae6d;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.contacto form textarea {
+  display: block;
+  width: 80%;
+  height: 12rem;
+  padding: 10px;
+  border: 2px solid #d2ae6d;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.contacto form input:focus,
+.contacto form textarea:focus {
+  outline: #d2ae6d solid 3px;
+}
+
+
+.botonFormulario {
+  background-color: #d2ae6d;
+  color: #fafafa;
+  transition: all 0.3s;
+  padding: 10px 10px;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  width: 8rem;
+  align-self: center;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  border: #d2ae6d 1px solid;
+}
+
+.botonFormulario:hover {
+  background-color: #e6bd73;
+}
+
+.botonFormulario:active {
+  font-size: 1.3rem;
+}
+
+.mapaLocales {
+  width: 100%;
+  padding-right: 5px;
+  background-color: gray;
+}
+
+
+@media (max-width: 770px) {
+  .contacto {
+    display: flex;
+    flex-direction: column;
   }
 
-  .contacto form textarea {
-    display: block;
-    width: 80%;
-    height: 12rem;
-    padding: 10px;
-    border: 2px solid #d2ae6d;
-    border-radius: 5px;
-    font-size: 1.1rem;
-    margin-top: 2rem;
-    margin-left: 2rem;
-  }
-  
-  .contacto form input:focus,
-  .contacto form textarea:focus {
-    outline: #d2ae6d solid 3px;
-  }
-  
-  
-  .botonFormulario {
-    background-color: #d2ae6d;
-    color: #fafafa;
-    transition: all 0.3s;
-    padding: 10px 10px;
-    font-size: 1.2rem;
-    margin-top: 1rem;
-    width: 8rem;
-    align-self: center;
-    margin-bottom: 50px;
-    border-radius: 15px;
-    border: #d2ae6d 1px solid;
+  .contacto form {
+    width: 100%;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
   }
 
-  .botonFormulario:hover {
-    background-color: #e6bd73;
-  }
-  
-  .botonFormulario:active {
-    font-size: 1.3rem;
-  }
-  
   .mapaLocales {
     width: 100%;
-    padding-right: 5px;
-    background-color: gray;
-  }
-    
-
-  @media (max-width: 770px) {
-    .contacto {
-      display: flex;
-      flex-direction: column; 
-    }
-
-    .contacto form {
-      width: 100%;
-      align-items: center;
-      margin-left: 0;
-      margin-right: 0;
-    }
-
-    .mapaLocales {
-      width: 100%;
-      height: 38rem;
-      padding: 1rem;
-    }
+    height: 38rem;
+    padding: 1rem;
   }
 
-  @media (max-width: 550px) {
-    .mapaLocales {
-      height: 30rem;
-    }
+  .spanContacto1 {
+    text-decoration: none;
   }
 
-  @media (max-width: 400px) {
-    .mapaLocales {
-      height: 26rem;
-    }
+  .spanContacto2 {
+    text-decoration: underline;
+    text-decoration-color: #d2ae6d;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 12px;
   }
+}
+
+@media (max-width: 550px) {
+  .mapaLocales {
+    height: 30rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .mapaLocales {
+    height: 26rem;
+  }
+}
