@@ -1,6 +1,6 @@
 const datosCardsAreas = [
     {
-        id: 1,
+        id: "derecho-laboral",
         tituloParte1: "Derecho",
         tituloParte2: "Laboral",
         imagen: "/icono-derecho-laboral.png",
@@ -19,7 +19,7 @@ const datosCardsAreas = [
         imagenDetalle: "/detalle-laboral.jpg"
     },
     {
-        id: 2,
+        id: "accidentes-viales",
         imagen: "/icono-accidentes.png",
         tituloParte1: "Accidentes",
         tituloParte2: "Viales",
@@ -34,7 +34,7 @@ const datosCardsAreas = [
         imagenDetalle: "/detalle-accidente-transito.jpeg"
     },
     {
-        id: 3,
+        id: "asesoramiento-empresarial",
         tituloParte1: "Asesoramiento",
         tituloParte2: "Empresarial",
         imagen: "/icono-asesoramiento.png",
@@ -48,7 +48,7 @@ const datosCardsAreas = [
         imagenDetalle: "/detalle-asesoramiento-empresarial.jpeg"
     },
     {
-        id: 4,
+        id: "sucesiones",
         tituloParte1: "Sucesiones",
         imagen: "/icono-sucesiones.png",
         descripcion: "Nuestro equipo te asesora y acompaña en cada paso del proceso sucesorio, asegurando que la distribución de bienes se realice conforme a la ley.",
@@ -60,7 +60,7 @@ const datosCardsAreas = [
         imagenDetalle: "/detalle-sucesiones.jpeg"
     },
     {
-        id: 5,
+        id: "derecho-penal",
         tituloParte1: "Derecho",
         tituloParte2: "Penal",
         imagen: "/icono-derecho-penal.png",

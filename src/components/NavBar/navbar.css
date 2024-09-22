@@ -55,12 +55,15 @@
 
 .barraNavegacion.transparent {
   background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .barraNavegacion.solid {
   background-color: #373435;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 @media (min-width: 992px) {
   .nav-item {
@@ -82,41 +85,46 @@
 @media (max-width: 992px) {
   .navbar-collapse {
     background-color: #373435;
-    transition: max-height 0.3s ease, background-color 0.3s ease;
-    overflow: hidden;
-    /* Evita el exceso de tamaño */
-    max-height: 0;
-    /* Inicialmente colapsado */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
   }
 
   .navbar-collapse.collapse.show {
-    max-height: 500px;
-    /* Ajusta este valor según sea necesario */
-  }
-
-  .menuNavegacion {
-    padding: 0;
-    /* Quitar padding si es necesario */
-  }
-
-  .navbar-nav {
-    padding: 10px 0;
-    /* Espaciado interno */
-  }
-
-  .navbar-collapse {
-    box-shadow: none;
-    /* Sin sombra por defecto */
+    background-color: #373435;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
   }
 
   .navbar-collapse.show {
-    box-shadow: none;
-    /* Sin sombra cuando el menú está abierto */
+    background-color: #373435;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
   }
 
-  .barraNavegacion.solid {
-    background-color: #373435;
-    box-shadow: none;
-    /* Sin sombra cuando está sólido */
+  .navbar-collapse.collapsing,
+  .navbar-collapse.collapse.show {
+    height: auto;
   }
+
+  .barraNavegacion.menu-open {
+  background-color: #373435 !important;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar-collapse {
+  background-color: #373435;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar-collapse.collapse.show {
+  background-color: #373435;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar-collapse.show {
+  background-color: #373435;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.barraNavegacion.show {
+  background-color: #373435;
+  transition: background-color 0s ease;
+}
 }

@@ -23,18 +23,23 @@ const NavBar = () => {
     const isNosotrosPage = location.pathname === "/nosotros";
 
     const handleMenuToggle = () => {
-        setIsMenuOpen(!isMenuOpen);
+        setIsMenuOpen(prev => !prev);
     };
 
     useEffect(() => {
-        document.body.style.overflow = isMenuOpen ? 'hidden' : 'auto';
+        const navbar = document.querySelector('.barraNavegacion');
+        if (isMenuOpen) {
+            navbar.classList.add('menu-abierto'); // Agrega clase para el fondo gris
+        } else {
+            navbar.classList.remove('menu-abierto'); // Quita la clase al cerrar
+        }
     }, [isMenuOpen]);
 
     return (
         <header className="sticky-top">
-            <nav className={`navbar navbar-expand-lg navbar-dark container-fluid barraNavegacion ${
-                isMenuOpen ? 'solid' : (isHomePage || isNosotrosPage) && !isScrolled ? 'transparent' : 'solid'
-            } ${isHomePage || isNosotrosPage ? 'fixed-nav' : 'static-nav'}`}>
+            <nav className={`navbar navbar-expand-lg navbar-dark container-fluid barraNavegacion ${isMenuOpen ? 'show' : ''} ${
+                    (isHomePage || isNosotrosPage) && !isScrolled ? 'transparent' : 'solid'
+                } ${isHomePage || isNosotrosPage ? 'fixed-nav' : 'static-nav'}`}>
                 <Link to={"/"} className="navbar-brand">
                     <img className="logo" src={logo} alt="Logo del Estudio" />
                 </Link>
@@ -72,4 +77,5 @@ const NavBar = () => {
 };
 
 export default NavBar;
+
 

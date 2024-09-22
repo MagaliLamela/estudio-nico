@@ -1,0 +1,35 @@
+.contenedorNotFound {
+    text-align: center;
+    padding: 50px;
+    background-color: gray;
+    color: #fafafa;
+}
+
+.h1NotFound {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 1rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.parrafoNotFound {
+    font-size: 1.5rem;
+    margin: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.btnNotFound {
+    background-color: #d2ae6d;
+    color: #fafafa;
+    padding: 15px;
+    border: #d2ae6d solid 1px;
+    border-radius: 5px;
+    transition: all 0.3s;
+    font-size: 1.5rem;
+}
+
+.btnNotFound:hover {
+    background-color: #e6bd73;
+}

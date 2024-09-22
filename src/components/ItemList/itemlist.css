@@ -166,8 +166,8 @@
 }
 
 .cardNosotros {
-    width: 22rem;
-    height: 35rem;
+    width: 23rem;
+    height: 40.5rem;
 }
 
 .cardNosotros h2 {
@@ -206,4 +206,25 @@
     .cardAreas {
         width: 22rem;
         }    
+}
+
+@media (max-width: 1050px) {
+    .cardNosotros {
+        width: 23rem;
+        height: 43rem;
+    }
+}
+
+@media (max-width: 990px) {
+    .cardNosotros {
+        width: 23rem;
+        height: 41rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .cardNosotros {
+        width: 23rem;
+        height: 43rem;
+    }
 }

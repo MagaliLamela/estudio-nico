@@ -4,10 +4,16 @@ import ItemInicio from "../ItemList/ItemInicio"
 import banner from "../../assets/banner.jpg"
 import "./inicio.css"
 import obtenerDatosCardsInicio from '../../data/data-inicio.js'
+import { Helmet } from 'react-helmet';
 
 const Inicio = () => {
   return (
     <div className='inicio'>
+        <Helmet>
+                <title>Estudio Berraondo, Galarza & Rocha</title>
+                <meta name="description" content="Somos un estudio jurídico especializado en derecho laboral, accidentes de tránsito, derecho penal y sucesiones. Más de 15 años defendiendo los derechos de nuestros clientes." />
+                <meta name="keywords" content="ESTUDIO, JURIDICO, ABOGADOS, PENAL, LABORAL, CIVIL, SUCESIONES, ACCIDENTES" />
+            </Helmet>
       <div className='imgBannerContainer'>
         <img className="imgBanner" src={banner} alt="Banner" />
         <div className='textoBanner'>
