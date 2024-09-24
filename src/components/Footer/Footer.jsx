@@ -28,16 +28,16 @@ const Footer = () => {
           <p>Dirección: <a href="https://www.google.com/maps/search/?api=1&query=Rodríguez+Peña+336,+Piso+5,+Oficina+51" target="_blank" rel="noopener noreferrer">Rodríguez Peña 336, Piso 5, Oficina 51</a></p>
         </address>
         <div className="iconosFooter">
-          <a target="_blank" to="https://www.instagram.com/estudioberraondogalarzarocha" aria-label="Instagram del Estudio Berraondo, Galarza & Rocha" >
+          <a target="_blank" href="https://www.instagram.com/estudioberraondogalarzarocha" aria-label="Instagram del Estudio Berraondo, Galarza & Rocha" >
             <FaInstagram className="logoInstagram" />
           </a>
-          <a target="_blank" to="https://m.facebook.com/people/Berraondo-Galarza-Rocha-Estudio-Jur%C3%ADdico/61564678864347/" aria-label="Facebook del Estudio Berraondo, Galarza & Rocha">
+          <a target="_blank" href="https://m.facebook.com/people/Berraondo-Galarza-Rocha-Estudio-Jur%C3%ADdico/61564678864347/" aria-label="Facebook del Estudio Berraondo, Galarza & Rocha">
             <FaFacebook className="logoFacebook" />
           </a>
-          <a target="_blank" to="https://www.linkedin.com/company/berraondo-galarza-rocha-estudio-jur%C3%ADdico" aria-label="LinkedIn del Estudio Berraondo, Galarza & Rocha">
+          <a target="_blank" href="https://www.linkedin.com/company/berraondo-galarza-rocha-estudio-jur%C3%ADdico" aria-label="LinkedIn del Estudio Berraondo, Galarza & Rocha">
             <FaLinkedinIn className="logoLinkedin" />
           </a>
-          <a target="_blank" to="https://api.whatsapp.com/send?phone=+541156137641&text=¡Hola!%20¿Cómo%20podemos%20ayudarte?" aria-label="WhatsApp del Estudio Berraondo, Galarza & Rocha">
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=+541156137641&text=¡Hola!%20¿Cómo%20podemos%20ayudarte?" aria-label="WhatsApp del Estudio Berraondo, Galarza & Rocha">
             <FaWhatsapp className="logoWpp" />
           </a>
         </div>
