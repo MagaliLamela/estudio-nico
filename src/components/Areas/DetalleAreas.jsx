@@ -2,6 +2,7 @@ import { useParams, Link } from 'react-router-dom';
 import { useEffect, useState } from "react"
 import obtenerDatosCardsAreas from "../../data/data-areas.js"
 import icono from "../../assets/icono-detalle.png"
+import { Helmet } from 'react-helmet';
 
 const DetalleAreas = () => {
     const [area, setArea] = useState({})
@@ -39,6 +40,11 @@ const DetalleAreas = () => {
 
     return (
         <div className='contenedorDetalle'>
+            <Helmet>
+                <title>{`${area.tituloParte1} ${area.tituloParte2} | Estudio Berraondo, Galarza & Rocha`}</title>
+                <meta name="description" content={area.descripcion} />
+                <meta name="keywords" content="ESTUDIO, JURIDICO, ABOGADOS, PENAL, LABORAL, CIVIL, SUCESIONES, ACCIDENTES" />
+            </Helmet>
             <section className='contenedorImagenDetalle1'>
                 <img className={`imagenDetalle ${area.tituloParte1 === 'Derecho' && area.tituloParte2 === 'Laboral' ? 'imagenDetalleDerechoLaboral' : ''}`} src={area.imagenDetalle} alt={`Imagen de ${area.tituloParte1} ${area.tituloParte2}`} loading='lazy' />
             </section>
@@ -63,9 +69,9 @@ const DetalleAreas = () => {
                         ))}
                     </ul>
                 )}
-                <Link className='contenedorBtnDetalle' target="_blank" to="https://api.whatsapp.com/send?phone=1156137641&text=¡Hola!%20¿Cómo%20podemos%20ayudarte?">
+                <a className='contenedorBtnDetalle' target="_blank" href="https://api.whatsapp.com/send?phone=+541156137641&text=¡Hola!%20¿Cómo%20podemos%20ayudarte?">
                     <button className="btnContactoDetalle" aria-label="Contáctanos por WhatsApp">Contáctanos</button>
-                </Link>
+                </a>
             </section>
         </div>
     )

@@ -17,9 +17,9 @@ const ItemAreas = ({ datoCard }) => {
                         <Link to={`/detalles/${datoCard.id}`}>
                             <button className="btnAreasVerMas"> Ver más</button>
                         </Link>
-                        <Link target="_blank" to="https://api.whatsapp.com/send?phone=1156137641&text=¡Hola!%20¿Cómo%20podemos%20ayudarte?">
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=+541156137641&text=¡Hola!%20¿Cómo%20podemos%20ayudarte?">
                             <button className="btnAreasContacto" aria-label="Contáctanos por WhatsApp">Contáctanos</button>
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>

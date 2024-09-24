@@ -4,6 +4,7 @@ import { FaInstagram, FaLinkedinIn, FaWhatsapp, FaFacebook } from "react-icons/f
 
 const Footer = () => {
   return (
+    <div className="contenedorFooter">
     <footer>
       <div className="contenedorLogoFooter">
         <img className="logoFooter" src={logo} alt="Logo del Estudio Berrraondo, Galarza y Rocha" />
@@ -44,6 +45,16 @@ const Footer = () => {
       </div>
 
     </footer>
+
+    <hr className="lineaFooter" />
+
+    <div className="footer2">
+      <p>Copyright © 2024 Estudio Berraondo, Galarza y Rocha. Todos los derechos reservados.</p>
+      <p>Sitio creado por <a target="_blank" href="https://www.linkedin.com/in/magali-lamela-mitsumori/">Magalí Mitsumori</a></p>
+    </div>
+
+    
+    </div>
 
   )
 }

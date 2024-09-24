@@ -161,3 +161,32 @@ footer div h4 {
     text-decoration: none;
     color: #fafafa;
 }
+
+.footer2 {
+    background-color: #373435;
+    color: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.footer2 p {
+    font-size: 0.8rem;
+}
+
+.footer2 p a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.contenedorFooter .lineaFooter {
+    color: none;
+    box-shadow: none;
+    background-color: none;
+    transition: none;
+    border: 1px solid #ff8000;
+    border-radius: 2px;
+    margin: 0;
+}
