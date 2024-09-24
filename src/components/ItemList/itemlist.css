@@ -41,7 +41,7 @@
     width: 18rem;
 }
 
-.cardIndividual h2 {
+.cardIndividual h3 {
     text-wrap: balance;
     font-size: 2rem;
     font-weight: bold;
@@ -109,7 +109,7 @@
     flex: 1;
 }
 
-.cardAreas h2 {
+.cardAreas h3 {
     text-align: center;
     word-wrap: break-word;
     font-size: 2.3rem;
@@ -170,7 +170,7 @@
     height: 40.5rem;
 }
 
-.cardNosotros h2 {
+.cardNosotros h3 {
     text-align: center;
     color: #d2ae6d;
 }

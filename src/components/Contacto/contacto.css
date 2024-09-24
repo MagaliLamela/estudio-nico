@@ -64,7 +64,7 @@
   transition: all 0.3s;
   padding: 10px 10px;
   font-size: 1.2rem;
-  margin-top: 1rem;
+  margin-top: 1.8rem;
   width: 8rem;
   align-self: center;
   margin-bottom: 50px;
@@ -100,6 +100,16 @@
     margin-right: 0;
   }
 
+  .contacto form input[type=text],
+.contacto form input[type=email],
+.contacto form input[type=tel] {
+  margin-left: 0;
+}
+
+.contacto form textarea {
+  margin-left: 0;
+}
+
   .mapaLocales {
     width: 100%;
     height: 38rem;
@@ -128,4 +138,15 @@
   .mapaLocales {
     height: 26rem;
   }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }

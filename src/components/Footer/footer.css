@@ -24,7 +24,7 @@ footer {
     border-radius: 5px;
 }
 
-footer div h2 {
+footer div h4 {
     font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: 1rem;
@@ -155,4 +155,9 @@ footer div h2 {
     text-decoration-thickness: 2px;
     text-underline-offset: 10px;
 }
+}
+
+.contactoFooter a {
+    text-decoration: none;
+    color: #fafafa;
 }

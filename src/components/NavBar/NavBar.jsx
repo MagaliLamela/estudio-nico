@@ -39,9 +39,10 @@ const NavBar = () => {
         <header className="sticky-top">
             <nav className={`navbar navbar-expand-lg navbar-dark container-fluid barraNavegacion ${isMenuOpen ? 'show' : ''} ${
                     (isHomePage || isNosotrosPage) && !isScrolled ? 'transparent' : 'solid'
-                } ${isHomePage || isNosotrosPage ? 'fixed-nav' : 'static-nav'}`}>
+                } ${isHomePage || isNosotrosPage ? 'fixed-nav' : 'static-nav'}`}
+                aria-label="Main Navigation">
                 <Link to={"/"} className="navbar-brand">
-                    <img className="logo" src={logo} alt="Logo del Estudio" />
+                    <img className="logo" src={logo} alt="Logo del Estudio Berraondo, Galarza y Rocha" />
                 </Link>
                 <button
                     className="navbar-toggler"

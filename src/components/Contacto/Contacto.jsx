@@ -76,13 +76,18 @@ const Contacto = () => {
             <form onSubmit={handleSubmitForm}>
                 <h1><span className='spanContacto1'>Con<span className='spanContacto2'>t</span></span><span className='spanContacto2'>ácta</span>nos</h1>
 
+                <label htmlFor="nombre" className="visually-hidden">Nombre*</label>
                 <input type="text" id="nombre" name='nombre' placeholder="Nombre*" value={datosForm.nombre} onChange={handleChangeInput} required />
 
+                <label htmlFor="telefono" className="visually-hidden">Teléfono*</label>
                 <input type="tel" id="telefono" name='telefono' placeholder="Teléfono*" value={datosForm.telefono} onChange={handleChangeInput} required />
 
+                <label htmlFor="email" className="visually-hidden">Correo electrónico*</label>
                 <input type="email" id="email" name='email' placeholder="Correo electrónico*" value={datosForm.email} onChange={handleChangeInput} required />
 
+                <label htmlFor="consulta" className="visually-hidden">Consulta*</label>
                 <textarea id="consulta" cols="30" rows="10" name='consulta' placeholder="Escribe tu consulta.." value={datosForm.consulta} onChange={handleChangeInput} required></textarea>
+
 
                 <input className="botonFormulario" type="submit" value="ENVIAR" />
             </form>
@@ -95,6 +100,7 @@ const Contacto = () => {
                     style={{ border: 0 }}
                     allowFullScreen
                     loading="lazy"
+                    title="Ubicación del Estudio Jurídico"
                 ></iframe>
             </div>
 

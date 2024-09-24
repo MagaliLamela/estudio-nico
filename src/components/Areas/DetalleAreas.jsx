@@ -10,9 +10,13 @@ const DetalleAreas = () => {
     useEffect(() => {
         obtenerDatosCardsAreas()
             .then((data) => {
-                const areaEncontrada = data.find((areaData) => areaData.id === (idArea)) 
+                const areaEncontrada = data.find((areaData) => areaData.id === (idArea))
                 setArea(areaEncontrada)
             })
+            .catch((error) => {
+                console.error("Error al obtener los datos:", error);
+                // Manejar el error de forma adecuada
+            });
     }, [idArea])
 
 
@@ -35,33 +39,34 @@ const DetalleAreas = () => {
 
     return (
         <div className='contenedorDetalle'>
-            <div className='contenedorImagenDetalle1'>
-                <img className={`imagenDetalle ${area.tituloParte1 === 'Derecho' && area.tituloParte2 === 'Laboral' ? 'imagenDetalleDerechoLaboral' : ''}`} src={area.imagenDetalle} alt="" />
-            </div>
-            <div className='contenedorDetalleTexto'>
-                <h2>
+            <section className='contenedorImagenDetalle1'>
+                <img className={`imagenDetalle ${area.tituloParte1 === 'Derecho' && area.tituloParte2 === 'Laboral' ? 'imagenDetalleDerechoLaboral' : ''}`} src={area.imagenDetalle} alt={`Imagen de ${area.tituloParte1} ${area.tituloParte2}`} loading='lazy' />
+            </section>
+
+            <section className='contenedorDetalleTexto'>
+                <h1>
                     {antes}
                     <span className="tituloSubrayado">{media}</span>
                     {despues}
-                </h2>
+                </h1>
                 <div className='contenedorImagenDetalle2'>
-                <img className={`imagenDetalle ${area.tituloParte1 === 'Derecho' && area.tituloParte2 === 'Laboral' ? 'imagenDetalleDerechoLaboral' : ''}`} src={area.imagenDetalle} alt="" />
-            </div>
-                <p> {area.descripcion} </p>
+                    <img className={`imagenDetalle ${area.tituloParte1 === 'Derecho' && area.tituloParte2 === 'Laboral' ? 'imagenDetalleDerechoLaboral' : ''}`} src={area.imagenDetalle} alt="Imagen de Derecho Laboral" />
+                </div>
+                <h2> {area.descripcion} </h2>
                 {area.detalles && (
                     <ul>
                         {area.detalles.map((detalle, index) => (
                             <li key={index}>
-                                <img src={icono} alt="Icono" className='iconoLista' />
+                                <img src={icono} alt="Viñetas para listar elementos de una lista" className='iconoLista' />
                                 <p><span>{detalle.titulo}</span> {detalle.texto} </p>
                             </li>
                         ))}
                     </ul>
                 )}
                 <Link className='contenedorBtnDetalle' target="_blank" to="https://api.whatsapp.com/send?phone=1156137641&text=¡Hola!%20¿Cómo%20podemos%20ayudarte?">
-                    <button className="btnContactoDetalle">Contáctanos</button>
+                    <button className="btnContactoDetalle" aria-label="Contáctanos por WhatsApp">Contáctanos</button>
                 </Link>
-            </div>
+            </section>
         </div>
     )
 }

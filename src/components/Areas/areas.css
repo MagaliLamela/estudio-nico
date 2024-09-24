@@ -63,10 +63,11 @@
     height: 53rem;
 }
 
-.contenedorDetalleTexto h2 {
+.contenedorDetalleTexto h1 {
     font-weight: bold;
     text-align: center;
     margin-bottom: 30px;
+    font-size: 2rem;
 }
 
 .contenedorDetalleTexto ul li {
@@ -78,8 +79,16 @@
     font-weight: bold;
 }
 
+.contenedorDetalleTexto h2 {
+    text-align: justify;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
 .contenedorDetalleTexto p {
     text-align: justify;
+
 }
 
 .contenedorBtnDetalle {
