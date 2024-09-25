@@ -49,8 +49,8 @@ const Footer = () => {
     <hr className="lineaFooter" />
 
     <div className="footer2">
-      <p>Copyright © 2024 Estudio Berraondo, Galarza y Rocha. Todos los derechos reservados.</p>
-      <p>Sitio creado por <a target="_blank" href="https://www.linkedin.com/in/magali-lamela-mitsumori/">Magalí Mitsumori</a></p>
+      <p className="parrafoCopyright">Copyright © 2024 Estudio Berraondo, Galarza y Rocha. Todos los derechos reservados.</p>
+      <p className="parrafoSitioCreado">Sitio creado por <a target="_blank" href="https://www.linkedin.com/in/magali-lamela-mitsumori/">Magalí Mitsumori</a></p>
     </div>
 
     
