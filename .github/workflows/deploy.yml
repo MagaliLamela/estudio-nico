@@ -1,0 +1,27 @@
+name: Deploy to Donweb
+
+on:
+  push:
+    branches:
+      - main  # Cambia 'main' por tu rama principal si es diferente.
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Build React app
+      run: |
+        npm install
+        npm run build
+
+    - name: Deploy to FTP
+      uses: SamKirkland/FTP-Deploy-Action@4.1.0
+      with:
+        server: ftp@c2102581.ferozo.com # Cambia esto por tu servidor FTP
+        username: ${{ secrets.FTP_USERNAME }}  # Agrega tu usuario como secreto
+        password: ${{ secrets.FTP_PASSWORD }}  # Agrega tu contraseña como secreto
+        local-dir: ./dist
+        remote-dir: /public_html  # Cambia esto si es necesario
