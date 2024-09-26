@@ -198,7 +198,7 @@
 @media (max-width: 1150px) {
     .cardAreas {
         width: 25rem;
-        height: 30rem;
+        height: 28rem;
     }
 
     .cardNosotros {
@@ -210,7 +210,6 @@
 @media (max-width: 990px) {
     .cardAreas {
         width: 25rem;
-        height: 27rem;
     }
 
     .cardNosotros {
@@ -238,6 +237,10 @@
 
     .cardNosotros {
         height: 44.5rem;
+    }
+
+    .cardAreas {
+        height: 31rem;
     }
 }
 
