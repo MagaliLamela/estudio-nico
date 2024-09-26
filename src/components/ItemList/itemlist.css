@@ -221,7 +221,6 @@
 
 @media (max-width: 768px) {
     .cardIndividual {
-        align-items: center;
         justify-content: center;
     }    
 
