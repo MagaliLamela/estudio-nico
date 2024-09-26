@@ -68,11 +68,16 @@
     color: #fafafa;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .cardEspecial p {
     font-size: 1.5rem;
+}
+
+.cardEspecial button {
+    margin-top: 0.5rem;
+    margin-bottom: 0.8rem;
 }
 
 .btnCardInicioContainer {
@@ -214,6 +219,18 @@
     }
 }
 
+@media (max-width: 768px) {
+    .cardIndividual {
+        align-items: center;
+        justify-content: center;
+    }    
+
+    .cardEspecial button {
+        margin-top: 1.5rem;
+        margin-bottom: 0.8rem;
+    }
+}
+
 @media (max-width: 425px) {
 
     .cardInicio {
@@ -221,7 +238,7 @@
     }
 
     .cardNosotros {
-        height: 43.5rem;
+        height: 44.5rem;
     }
 }
 

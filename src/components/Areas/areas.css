@@ -125,6 +125,12 @@
 }
 
 @media (max-width: 990px) {
+
+    .contenedorDetalleTexto {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
     .contenedorImagenDetalle1 {
         display: none;
     }
