@@ -130,6 +130,7 @@
 
 @media (max-width: 550px) {
     .textoBanner {
+        width: 26rem;
         left: 32%;
     }
     .h2Inicio {
@@ -139,7 +140,8 @@
 
 @media (max-width: 488px) {
     .textoBanner {
-        left: 36%;
+        width: 25rem;
+        left: 37%;
     }
 
     .h2Inicio {
