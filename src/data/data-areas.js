@@ -8,7 +8,7 @@ const datosCardsAreas = [
         detalles: [
             { titulo: "Despidos: ", texto: "Protegemos tus derechos frente a un despido injustificado. Te acompañamos en el proceso para garantizar que recibas la mayor indemnización posible, defendiendo tus intereses en cada etapa del proceso." },
             { titulo: "Trabajo en negro: ", texto: "Si trabajaste sin estar registrado, defendemos tus derechos laborales para que recibas todas las compensaciones que te corresponden." },
-            { titulo: "Accidente de trabajo: ", texto: "Si has sufrido un accidente laboral, te ayudamos a reclamar la indemnización que mereces y a asegurar tu futuro profesional."},
+            { titulo: "Accidentes de trabajo: ", texto: "Si has sufrido un accidente laboral, te ayudamos a reclamar la indemnización que mereces y a asegurar tu futuro profesional."},
             { titulo: "Maltrato laboral: ", texto: "No toleres el acoso en el trabajo. Estamos aquí para asesorarte y tomar las acciones legales necesarias para proteger tu integridad."},
             { titulo: "Horas extras: ", texto: "Reclama el pago de tus horas extras. Hacemos valer tus derechos para que recibas la compensación justa por tu esfuerzo adicional."},
             { titulo: "Diferencias salariales: ", texto: "Defendemos tu derecho a recibir el salario completo y justo. Si existen diferencias salariales, te ayudamos a reclamarlas."},

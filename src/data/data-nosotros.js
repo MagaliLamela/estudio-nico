@@ -11,7 +11,7 @@ const datosCardsNosotros = [
         imagen: "/foto-pablo.jpeg",
         tituloParte1: "Pablo",
         tituloParte2: "Galarza",
-        descripcion: "Abogado recibido de la Facultad de Derecho - UCES. Especializado en derecho laboral, dedicado a la protección de los derechos de los empleados y empleadores."
+        descripcion: "Abogado recibido de la Facultad de Derecho - UBA. Especializado en derecho laboral, dedicado a la protección de los derechos de los empleados y empleadores."
     },
     {
         id: 3,

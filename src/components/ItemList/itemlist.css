@@ -2,21 +2,22 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-  }
+}
 
-  .cardsContainerAreas {
+.cardsContainerAreas {
     display: flex;
     justify-content: center;
-  }
+}
 
-  .row {
+.row {
     display: flex;
     justify-content: center;
-  }
+}
 
-  .cardAreaWrapper {
+.cardAreaWrapper {
     display: flex;
-    justify-content: center; /* Centra el contenido */
+    justify-content: center;
+    /* Centra el contenido */
 }
 
 .cardIndividual {
@@ -188,27 +189,13 @@
 
 }
 
+
 @media (max-width: 1150px) {
     .cardAreas {
         width: 25rem;
         height: 30rem;
-        }    
-}
+    }
 
-@media (max-width: 990px) {
-    .cardAreas {
-        width: 25rem;
-        height: 27rem;
-        }    
-}
-
-@media (max-width: 350px) {
-    .cardAreas {
-        width: 22rem;
-        }    
-}
-
-@media (max-width: 1050px) {
     .cardNosotros {
         width: 23rem;
         height: 43rem;
@@ -216,15 +203,36 @@
 }
 
 @media (max-width: 990px) {
+    .cardAreas {
+        width: 25rem;
+        height: 27rem;
+    }
+
     .cardNosotros {
         width: 23rem;
         height: 41rem;
     }
 }
 
+@media (max-width: 425px) {
+
+    .cardInicio {
+        height: 24rem;
+    }
+
+    .cardNosotros {
+        height: 42rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .cardAreas {
+        width: 22rem;
+    }
+}
+
 @media (max-width: 360px) {
     .cardNosotros {
-        width: 23rem;
         height: 43rem;
     }
 }
