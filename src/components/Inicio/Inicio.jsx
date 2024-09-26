@@ -17,7 +17,7 @@ const Inicio = () => {
       <section className='imgBannerContainer'>
         <img className="imgBanner" src={banner} alt="Banner del Estudio Berraondo, Galarza y Rocha" loading="lazy" />
         <div className='textoBanner'>
-          <h1>Estudio Berraondo, <br /><span>Gala</span>rza & Rocha</h1>
+          <h1>Estudio <br className='brOculto' /> Berraondo, <br /><span>Gala</span>rza & Rocha</h1>
           <p>Somos un estudio jurídico comprometido con la excelencia, que ofrece un servicio con enfoque personalizado, combinando conocimiento, estrategia y un profundo compromiso con nuestros clientes.</p>
         </div> 
       </section>
