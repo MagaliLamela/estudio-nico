@@ -135,7 +135,7 @@
     margin-top: auto;
     padding: 10px;
     border-radius: 15px;
-    width: 8rem;
+    width: 8.5rem;
 }
 
 
@@ -221,18 +221,12 @@
     }
 
     .cardNosotros {
-        height: 42rem;
+        height: 43.5rem;
     }
 }
 
 @media (max-width: 350px) {
     .cardAreas {
         width: 22rem;
-    }
-}
-
-@media (max-width: 360px) {
-    .cardNosotros {
-        height: 43rem;
     }
 }
