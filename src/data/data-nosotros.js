@@ -4,7 +4,7 @@ const datosCardsNosotros = [
         tituloParte1: "Gonzalo",
         tituloParte2: "Berraondo",
         imagen: "/foto-gonzalo.jpeg",
-        descripcion: "Abogado recibido de la Facultad de Derecho - UCES. Especializado en derecho laboral y accidentes de tránsito, con más de 15 años de experiencia brindando asesoramiento y representación en casos complejos."
+        descripcion: "Abogado recibido de la Facultad de Derecho - UCES. Especializado en derecho laboral y accidentes de tránsito, con más de 16 años de experiencia brindando asesoramiento y representación en casos complejos."
     },
     {
         id: 2,

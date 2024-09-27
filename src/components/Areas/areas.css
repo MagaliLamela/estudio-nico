@@ -159,12 +159,30 @@
     .h1Areas {
         font-size: 2.7rem;
     }
+
+    .contenedorImagenDetalle2 .imagenDetalle {
+        height: 250px;
+        width: 250px;
+    }
+
+    .contenedorDetalleTexto h1 {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
 }
 
 @media (max-width: 550px) {
     .h1Areas {
         text-wrap: nowrap;
     }    
+}
+
+@media (max-width: 407px) {
+    .contenedorDetalleTexto h1 {
+        text-wrap: wrap;
+    }
 }
 
 @media (max-width: 380px) {
