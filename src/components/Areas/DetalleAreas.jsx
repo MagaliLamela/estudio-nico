@@ -27,8 +27,8 @@ const DetalleAreas = () => {
     }, []);
 
     const obtenerParteMedia = (tituloCompleto = '') => {
-        // Verifica si el título es "Asesoramiento Empresarial" y el ancho de pantalla es menor a 420px
-        if (tituloCompleto.toLowerCase() === 'asesoramiento empresarial' && screenWidth < 391) {
+        // Verifica si el título es "Asesoramiento Empresarial" y el ancho de pantalla es menor a 426px
+        if (tituloCompleto.toLowerCase() === 'asesoramiento empresarial' && screenWidth < 429) {
             const indexPresar = tituloCompleto.indexOf('presar');
             if (indexPresar !== -1) {
                 return {
@@ -72,7 +72,7 @@ const DetalleAreas = () => {
             </section>
 
             <section className='contenedorDetalleTexto'>
-                <h1>
+                <h1 className={tituloCompleto === 'Asesoramiento Empresarial' ? 'tituloAsesoramiento' : ''}>
                     {antes}
                     {subrayarMedia ? <span className="tituloSubrayado">{media}</span> : media}
                     {despues}

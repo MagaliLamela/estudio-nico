@@ -179,15 +179,12 @@
     }    
 }
 
-@media (max-width: 425px) {
-    .contenedorDetalleTexto h1 {
-        text-wrap: nowrap;
-    }
-}
-
-@media (max-width: 391px) {
-    .contenedorDetalleTexto h1 {
-        text-wrap: wrap;
+@media (max-width: 428px) {
+    .contenedorDetalleTexto .tituloAsesoramiento {
+        white-space: normal; /* Permite que el texto se divida en múltiples líneas */
+        word-wrap: break-word; /* Asegura que las palabras largas también se dividan */
+        max-width: 25rem; /* Limita el ancho del texto para forzar el salto de línea */
+        align-self: center;
     }
 }
 
