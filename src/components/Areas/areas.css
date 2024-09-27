@@ -179,7 +179,13 @@
     }    
 }
 
-@media (max-width: 407px) {
+@media (max-width: 425px) {
+    .contenedorDetalleTexto h1 {
+        text-wrap: nowrap;
+    }
+}
+
+@media (max-width: 391px) {
     .contenedorDetalleTexto h1 {
         text-wrap: wrap;
     }

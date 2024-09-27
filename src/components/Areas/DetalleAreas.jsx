@@ -28,7 +28,7 @@ const DetalleAreas = () => {
 
     const obtenerParteMedia = (tituloCompleto = '') => {
         // Verifica si el título es "Asesoramiento Empresarial" y el ancho de pantalla es menor a 420px
-        if (tituloCompleto.toLowerCase() === 'asesoramiento empresarial' && screenWidth < 408) {
+        if (tituloCompleto.toLowerCase() === 'asesoramiento empresarial' && screenWidth < 391) {
             const indexPresar = tituloCompleto.indexOf('presar');
             if (indexPresar !== -1) {
                 return {
