@@ -10,6 +10,11 @@ lerna-debug.log*
 node_modules
 *.local
 
+README.md
+src/
+public/
+node_modules/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
